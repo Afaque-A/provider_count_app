@@ -17,7 +17,7 @@ class _ExampleOneState extends State<ExampleOne> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.amber,
-        title: Center(child: Text('Example_One_Provider')),
+        title: const  Center(child: Text('Example_One_Provider')),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -41,7 +41,7 @@ class _ExampleOneState extends State<ExampleOne> {
                     decoration: BoxDecoration(
                       color: Colors.amber.withOpacity(value.value),
                     ),
-                    child: Center(child: Text('Container one')),
+                    child: const  Center(child: Text('Container one')),
                   ),
                 ),
                 Expanded(
@@ -56,7 +56,7 @@ class _ExampleOneState extends State<ExampleOne> {
               ],
             );
           }),
-          SizedBox(
+          const  SizedBox(
             height: 15,
           ),
           InkWell(
